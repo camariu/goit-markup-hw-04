@@ -1,0 +1,543 @@
+html {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+}
+/*Heder and main -background*/
+
+*{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.container {
+  width: 1200px;
+  background: #ffffff;
+  margin: auto;
+}
+
+.container-footer {
+  margin: auto;
+  width: 1200px;
+  
+}
+
+.container-section-one {
+  margin: auto;
+  width: 1200px;
+  margin-top: 0;
+}
+
+.container-ouer-team{
+  width: 1200px;
+  background: #F5F4FA;
+  margin: auto;
+  height: 648px;
+}
+
+.heder-line{
+ border: 1px solid #ECECEC
+}
+
+
+/*Navigation Logo*/
+
+.navigation-logo-1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation-logo-1,
+.navigation-list li a {
+  list-style: none;
+}
+
+.navigation-logo-1::before {
+  content: "Web";
+  color: #2196f3;
+}
+
+/*Navigation List*/
+
+.navigation-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.navigation-list-right li a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.tel {
+  height: 16px;
+  width: 113px;
+  border-radius: nullpx;
+}
+
+/*Hover List*/
+
+.navigation-list:hover {
+  color: #2196f3;
+}
+
+/* Buttons */
+
+.buttons {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/*Hover Butons*/
+
+.buttons:hover {
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: #2196f3;
+}
+
+/*Unstyled List*/
+
+.unstyled-list {
+  list-style: none;
+}
+
+/* Title and Paragarf -images*/
+
+.title-image {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.parafarf {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Footer*/
+
+.footer-address,
+.footer-tel-email {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.footer-address {
+  color: #ffffff;
+}
+
+.footer-tel-email {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.navigation-logo-2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+  padding-top: 60px;
+}
+
+.navigation-logo-2::after {
+  content: "Studio";
+  color: #ffffff;
+}
+
+/*Flexbox -Organization */
+
+/*Header*/
+
+.main {
+}
+
+.page-header {
+  align-items: start;
+  height: 80px;
+}
+
+.page-header,
+.navigation-list,
+.page-heder-nav,
+.navigation-list-right {
+  display: flex;
+}
+
+.navigation-logo-1 {
+  margin-right: 53px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.navigation-list {
+  gap: 50px;
+  margin: auto;
+}
+
+.navigation-list-right {
+  gap: 40px;
+  margin-left: 345px;
+  margin-top: 32px;
+  color: #757575;
+  text-decoration: none;
+}
+
+/*Buttons*/
+
+.main-buttons,
+.button-list {
+  display: flex;
+  margin-top: 36px;
+  justify-content: center;
+  margin-bottom: 23.5px;
+}
+
+.button-list {
+  justify-content: center;
+  gap: 8px;
+}
+
+/*Images*/
+
+.images-main {
+  display: flex;
+}
+
+.images-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding-inline-start: 0px;
+  margin-bottom: 94px;
+}
+
+.images-border {
+  border: 1px solid #eeeeee;
+}
+
+.title-image,
+.parafarf {
+  margin-left: 24px;
+}
+
+/*Footer*/
+
+.footer {
+  height: 251px;
+  margin-top: 0px;
+  background-color: #2f303a;
+  flex-direction: column;
+  display: flex;
+}
+.adress-main {
+  display: flex;
+  margin-top: 28px;
+}
+
+.adress {
+  flex-direction: column;
+  gap: 12px;
+  display: flex;
+  padding-inline-start: 0px;
+}
+
+/*INDEX STYLE*/
+
+.main-title,
+.button-from-main-title,
+.title-criteria,
+.paragraf-criteria,
+.what-we-do-title,
+.our-team-title,
+.our-team-name,
+.our-team-ocupation {
+  font-family: Roboto;
+}
+
+.body {
+  margin: 0px;
+}
+
+/*Sectiunea 1*/
+
+.main-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  border-radius: nullpx;
+  text-align: center;
+  margin: auto;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  height: 120px;
+  width: 696px;
+  margin-top: 200px;
+}
+.button-from-main-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background-color: #2196f3;
+  border-radius: 4px;
+  color: #ffffff;
+  border: 0px;
+  padding: 10px 10px 10px 10px;
+  height: 50px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.section-one {
+  background-color: #2f303a;
+  height: 600px;
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.button-main-title {
+  display: flex;
+  margin-left: 535px;
+  padding-inline-start: 0px;
+}
+
+/* Oue Crieria*/
+
+.main-our-criteria {
+  display: flex;
+}
+
+.our-criteria {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.title-criteria {
+  height: 16px;
+  width: 270px;
+  border-radius: nullpx;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #212121;
+}
+.paragraf-criteria {
+  height: 75px;
+  width: 270px;
+  border-radius: nullpx;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+}
+
+/*Sectiunea What we do*/
+
+.what-we-do-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-block-start: 0em;
+  margin-block-end: 50px;
+}
+
+.what-we-do,
+.what-we-do-images {
+  display: flex;
+}
+
+.what-we-do-div {
+}
+.what-we-do-images {
+  gap: 30px;
+  justify-content: center;
+  padding-inline-start: 0px;
+  margin-left: 15px;
+}
+
+/*Ouer Team*/
+
+.our-team {
+  height: 648px;
+
+  border-radius: 0px;
+  background-color: #f5f4fa;
+  display: flex;
+  flex-direction: column;
+  margin-top: 77px;
+}
+.our-team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 94px;
+}
+
+.our-team-name {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  margin-top: 30px;
+}
+
+.our-team-ocupation {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+  margin-top: 10px;
+}
+
+.our-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding-inline-start: 0px;
+  height: 428px;
+}
+
+/* Footer-Index*/
+
+.footer-index {
+  display: flex;
+  height: 251px;
+  margin-top: 0px;
+  background-color: #2f303a;
+  flex-direction: column;
+}
+
+.shodow-list {
+  box-shadow: 0px 2px 0px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Tema 4-Icons-background*/
+
+.container{ border: 1px solid black;
+
+}
+
+/* Our criteria*/
+
+.our-criteria-block{
+  height: 120px;
+  width: 270px;
+  left: 215px;
+  top: 774px;
+  border-radius: 4px;
+  background-color: #F5F4FA;
+
+}
+
+.our-criteria-icon{
+  justify-content: center;
+  display: flex;
+}
+
+.our-criteria-icon-list{
+  display: flex;
+  gap: 30px;
+}
+
+.our-criteria-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ouer Team*/
+
+.our-team-icon {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.our-team-icon-list{
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+} 
+.our-team-icon-list li {
+  display: flex;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+ .our-team-icon-list :hover{
+  color: #ffffff;
+  background: #2196F3;
+;
+ }
