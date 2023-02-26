@@ -9,23 +9,41 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body class="body">
-    <header class="heder-line ">
-      <section class="container page-header unstyled-list  "> 
+    <header class="page-header unstyled-list container">
       <nav class="page-heder-nav">
         <a class="navigation-logo-1" href="#">Studio</a>
-        <ul class=" navigation-list unstyled-list">
-          <li ><a class="navigation-list" href="index.html">Studio</a></li>
-          <li ><a class="navigation-list" href="portfolio.html">Portfolio</a></li>
-          <li ><a class="navigation-list"href="#">Contacts</a></li>
-      </div>
+        <ul class="navigation-list unstyled-list">
+          <li><a class="navigation-list" href="index.html">Studio</a></li>
+          <li>
+            <a class="navigation-list" href="portfolio.html">Portfolio</a>
+          </li>
+          <li><a class="navigation-list" href="#">Contacts</a></li>
+        </ul>
       </nav>
-      <div  >
-        <ul class=" navigation-list-right unstyled-list">
-          <li ><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="tel"><a href="tel:+12127724150">+1 212-772-4150</a></li>
+      <div>
+        <ul class="navigation-list-right unstyled-list">
+          <li class="icons-header">
+            <a class="icons-header" href="#">
+              <svg width="16px" height="12px">
+                <use href="/images/icons.svg#icon-envelope"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mailto nav-list-right-hover">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="icons-header">
+            <a class="icons-header" href="mailto:info@devstudio.com">
+              <svg width="10px" height="16px">
+                <use href="/images/icons.svg#icon-smartphone"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="tel nav-list-right-hover">
+            <a href="tel:+12127724150">+1 212-772-4150</a>
+          </li>
         </ul>
       </div>
-    </section>
     </header>
     <main class="main" >
       <section class="container" >
@@ -134,19 +152,74 @@
         </ul>
       </section>
     </main>
-    <footer class="footer ">
-      <div class="container-footer">
-        <a  class="navigation-logo-2" href="WebStudio.html">Web</a>
-        <address class="adress-main">
-          <ul class=" adress unstyled-list">
-            <li>
-              <a class="footer-address"href="695ParkAveNY10065USA">695 Park Ave, NY 10065, USA </a>
-            </li>
-            <li><a class=" footer-tel-email"href="info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class=" footer-tel-email"href="+12127724150">+1 212-772-4150</a></li>
-          </ul>
-        </address>
-      </div>
+    <footer class="footer">
+      <section class="container-footer">
+        <div class="navigation-block">
+          <a class="navigation-logo-2" href="WebStudio.html">Web</a>
+          <address class="adress-main">
+            <ul class="adress unstyled-list">
+              <li>
+                <a class="footer-address" href="695ParkAveNY10065USA"
+                  >695 Park Ave, NY 10065, USA
+                </a>
+              </li>
+              <li>
+                <a class="footer-tel-email" href="info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="footer-tel-email" href="+12127724150"
+                  >+1 212-772-4150</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <section>
+          <div><h2 class="find-us-on">FIND US ON</h2></div>
+          <div>
+            <ul class="unstyled-list our-team-icon-list-footer">
+              <li>
+                <a  class="icons-footer-list" href="#">
+                  <svg width="20px" height="20px">
+                    <use
+                      href="/images/icons.svg#icon-instagram-2-footer"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="icons-footer-list" href="#">
+                  <svg width="20px" height="20px">
+                    <use
+                      href="/images/icons.svg#icon-twitter-1-footer"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="icons-footer-list" href="#">
+                  <svg width="20px" height="20px">
+                    <use
+                      href="/images/icons.svg#icon-facebook-1-footer"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="icons-footer-list" href="#">
+                  <svg width="20px" height="20px">
+                    <use
+                      href="/images/icons.svg#icon-linkedin-1-footer"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
     </footer>
   </body>
 </html>

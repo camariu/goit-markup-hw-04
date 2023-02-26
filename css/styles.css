@@ -337,6 +337,7 @@ html {
   height: 50px;
   width: 200px;
   margin-top: 30px;
+  cursor: pointer;
 }
 
 .section-one {
@@ -473,6 +474,7 @@ html {
 .shodow-list {
   box-shadow: 0px 2px 0px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 
 /* Tema 4-Icons-background*/
@@ -516,24 +518,8 @@ html {
   display: flex;
   gap: 10px;
   margin-top: 16px;
+  margin-bottom: 3.2px;
 }
-.our-team-icon-list li {
-  display: flex;
-  border-radius: 50%;
-  height: 44px;
-  width: 44px;
-  background-color: #ffffff;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.icons-our-team:hover {
-  fill: #FFFFFF;
-  background: #2196f3;
-}
-
- 
 
 /*Regular Customers*/
 
@@ -587,33 +573,85 @@ html {
   display: flex;
   margin-left: 156px;
   margin-top: 20px;
-  gap:10px
+  gap: 10px;
 }
 
 .our-team-icon-list-footer :hover {
   background: #2196f3;
 }
 
-
-.find-us-on{
-margin-top: 45px;
-font-family: Roboto;
-font-size: 14px;
-font-weight: 700;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-align: left;
-color: #FFFFFF;
-margin-left: 156px;
-
+.find-us-on {
+  margin-top: 45px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 156px;
 }
-
-
 
 .icons-header:hover {
-  fill:rgba(33, 150, 243, 1);
+  fill: rgba(33, 150, 243, 1);
 }
 
-.icons-header{
+.icons-header {
   fill: rgba(117, 117, 117, 1);
+}
+
+.nav-list-right-hover :hover {
+  color: #2196f3;
+}
+
+.section-one {
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.our-team-icon-list li {
+  display: flex;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.backgound-ourtime-icons {
+  display: flex;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  fill: rgba(175, 177, 184, 1);
+}
+
+.backgound-ourtime-icons:hover {
+  background-color: #2196f3;
+  fill: #ffffff;
+}
+
+.icons-footer-list{
+  fill: #FFFFFF;
+}
+
+.icons-regular-customers{
+  fill: #AFB1B8;
+
+}
+
+.icons-regular-customers:hover{
+  fill: #2196f3;
+   
+}
+
+.customers-block:hover{
+  border-color: #2196f3;
 }
