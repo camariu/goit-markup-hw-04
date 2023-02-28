@@ -54,6 +54,14 @@ html {
 
 /*HEADER*/
 
+.header-position-svg{
+  position: relative;
+  left: -10px;
+
+  
+}
+
+ 
 .page-header {
   align-items: start;
   height: 80px;
@@ -128,8 +136,10 @@ html {
   text-decoration: none;
 }
 
-.icons-header:hover {
+.icons-heade:hover {
   fill: rgba(33, 150, 243, 1);
+  color: #2196f3;
+  
 }
 
 .icons-header {
@@ -143,6 +153,7 @@ html {
 
 .nav-list-right-hover :hover {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 .tel {
@@ -152,7 +163,8 @@ html {
   margin-left: 10px;
 }
 
-/*HIRO*/
+
+/*HERO*/
 
 .section-one {
   background-color: #2f303a;
@@ -603,8 +615,7 @@ html {
 
 .images-border:hover {
   box-shadow: 1px 4px 6px 0px #00000029;
-  box-shadow: 0px 4px 4px 0px #0000000f;
-  box-shadow: 0px 1px 1px 0px #0000001f;
+  
 }
 
 .title-image {
